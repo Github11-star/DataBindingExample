@@ -1,3 +1,3 @@
 package com.firozpocyt.databindingexample
 
-data class Quote()
+data class Quote(val text: String, val author: String)
